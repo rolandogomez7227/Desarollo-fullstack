@@ -1,0 +1,76 @@
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #333; 
+    line-height: 1.6; 
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+  color: #000000 ;
+  text-align: center;
+  font-style: italic;
+}
+h2{
+  color: #000000;
+}
+#nosotros p {
+    font-style: italic; 
+    background-color: #f9f9f9; 
+    border-left: 5px solid rgba(0, 255, 128, 0.5); 
+    margin-bottom: 20px;
+}
+p {
+  color: black;
+text-align: justify; 
+font-size:medium
+}
+.boton-diseno {
+    background: linear-gradient(135deg, #00ff80, #00c3ff); 
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.boton-diseno:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1); 
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #f4f4f4;
+    margin-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007bff; 
+    margin: 0 10px;
+}
+
+/* Diseño para celulares */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    img {
+        width: 100%; /* Las imágenes se ajustan al ancho del celular */
+        height: auto;
+    }
+    form {
+        width: 90%;
+    }
+}

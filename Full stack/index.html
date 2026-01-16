@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnología plus+</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Tec plus+</h1>
+        <p>Esta empresa está enfocada al desarrollo de soluciones de problemas en aparatos tecnológicos, especialistas en software y hardware.</p>
+    </header>
+
+    <main>
+        <section id="nosotros">
+            <h2>Misión</h2>
+            <p>"Brindar soluciones integrales y definitivas a los fallos tecnológicos de nuestros clientes, combinando un diagnóstico preciso de hardware con una optimización avanzada de software, garantizando que sus herramientas digitales funcionen siempre al máximo rendimiento."</p>
+
+            <h2>Visión</h2>
+            <p>"Convertirnos en el centro de soporte tecnológico líder a nivel nacional, siendo reconocidos por nuestra capacidad de rescatar y potenciar cualquier dispositivo, promoviendo una cultura de reparación y actualización tecnológica sostenible."</p>
+        </section>
+
+        <section id="proyectos">
+            <h2>Nuestros Proyectos Destacados</h2>
+            <article class="proyecto">
+                <h3>Reparación de cómputo</h3>
+                <p>Reparamos aproximadamente 200 equipos de computación para una empresa de call center.</p>
+                <img src="Imag/Reparacion.jpg" alt="Técnico reparando computadora" width="300" height="200">
+            </article>
+
+            <article class="proyecto">
+                <h3>Reparación de celulares</h3>
+                <p>En colaboración con Celltec, logramos reparar teléfonos de empresas que parecían sin solución.</p>
+                <img src="Imag/image.png" alt="Técnico reparando celulares" width="300" height="200">
+            </article>
+
+            <article class="proyecto">
+                <h3>Instalación de software</h3>
+                <p>Instalamos el sistema operativo de equipos de cómputo: Linux, Windows, macOS, Android, iOS, etc.</p>
+                <img src="Imag/windows-linux-mac.png" alt="Instalación de software" width="300" height="200">
+            </article>
+        </section>
+
+        <div style="text-align: center; margin: 40px 0;">
+            <button id="Boton" class="boton-diseno" onclick="cambiarColor()"> 
+                ¡Cambia mi color!
+            </button>
+        </div>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿En qué te ayudamos?" required></textarea>
+                </div>
+
+                <button type="submit" class="boton-diseno" style="font-size: 14px; padding: 10px 20px;">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes-sociales">
+            <p>Síguenos en nuestras redes:</p>
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://instagram.com" target="_blank">Instagram</a> | 
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+        <hr>
+        <p>© 2026 Tecnología plus+ | Todos los derechos reservados.</p>
+        <p>Matrícula: AL03017189</p> 
+    </footer>
+
+    <script>
+        function cambiarColor() {
+            document.getElementById("Boton").style.backgroundColor = "cyan";
+            document.getElementById("Boton").style.color = "black";
+        }
+    </script>
+
+</body>
+</html>
